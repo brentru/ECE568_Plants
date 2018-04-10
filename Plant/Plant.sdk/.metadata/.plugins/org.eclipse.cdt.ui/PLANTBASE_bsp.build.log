@@ -1,4 +1,4 @@
-00:42:16 **** Auto Build of project PLANTBASE_bsp ****
+11:01:07 **** Build of project PLANTBASE_bsp ****
 make -k all 
 "Running Make include in MB_UC/libsrc/bram_v4_2/src"
 make -C MB_UC/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -O0 -g3"
@@ -484,7 +484,7 @@ In file included from ../../../include/MRF24G/../DEIPcK/utility/fpga/../../../MR
                  from ../../../include/MRF24G/../DEIPcK/utility/System.h:54,
                  from MRF24G/utility/fpga/DEMRF24G.cpp:54,
                  from MRF24G/DEMRF24G.cpp:55:
-c:\users\emann\desktop\mbtst\plant\plant.sdk\plantbase_bsp\mb_uc\include\mrf24g\utility\wf_customize.h:50:0: warning: "INLINE" redefined
+../../../include/MRF24G/../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
  #define INLINE
  
 In file included from ../../../include/MRF24G/../DEIPcK/utility/fpga/System.h:62:0,
@@ -646,7 +646,7 @@ In file included from ../../../include/MRF24G/../DEIPcK/utility/fpga/../../../MR
                  from ../../../include/MRF24G/../DEIPcK/utility/fpga/System.h:64,
                  from ../../../include/MRF24G/../DEIPcK/utility/System.h:54,
                  from MRF24G/utility/fpga/DEMRF24G.cpp:54:
-c:\users\emann\desktop\mbtst\plant\plant.sdk\plantbase_bsp\mb_uc\include\mrf24g\utility\wf_customize.h:50:0: warning: "INLINE" redefined
+../../../include/MRF24G/../DEIPcK/utility/fpga/../../../MRF24G/utility/ud_inc/internal/../../wf_customize.h:50:0: warning: "INLINE" redefined
  #define INLINE
  
 In file included from ../../../include/MRF24G/../DEIPcK/utility/fpga/System.h:62:0,
@@ -663,5 +663,5 @@ make -C MB_UC/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "A
 "Compiling uartlite"
 'Finished building libraries'
 
-00:44:01 Build Finished (took 1m:45s.623ms)
+11:03:23 Build Finished (took 2m:15s.840ms)
 

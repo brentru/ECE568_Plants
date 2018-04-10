@@ -64,3 +64,9 @@ con
 
 00:58:29 INFO  : Launch script is exported to file 'C:\Users\Emann\Desktop\MBTST\Plant\Plant.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_plantbase.elf_on_local.tcl'
 01:03:19 INFO  : Disconnected from the channel tcfchan#2.
+10:57:50 INFO  : Registering command handlers for SDK TCF services
+10:57:51 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\brent\Documents\GitHub\ECE568_Plants\Plant\Plant.sdk\temp_xsdb_launch_script.tcl
+10:57:53 INFO  : XSCT server has started successfully.
+10:57:53 INFO  : Successfully done setting XSCT server connection channel  
+10:57:54 INFO  : Successfully done setting SDK workspace  
+10:57:54 INFO  : Processing command line option -hwspec C:/Users/brent/Documents/GitHub/ECE568_Plants/Plant/Plant.sdk/MB_PL_wrapper.hdf.

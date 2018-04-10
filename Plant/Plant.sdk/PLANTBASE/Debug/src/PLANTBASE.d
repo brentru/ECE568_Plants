@@ -24,6 +24,11 @@ src/PLANTBASE.o src/PLANTBASE.o: ../src/PLANTBASE.c \
  ../../PLANTBASE_bsp/MB_UC/include/mb_interface.h \
  ../../PLANTBASE_bsp/MB_UC/include/xtmrctr.h \
  ../../PLANTBASE_bsp/MB_UC/include/xtmrctr_l.h \
+ ../../PLANTBASE_bsp/MB_UC/include/PmodALS.h \
+ ../../PLANTBASE_bsp/MB_UC/include/xspi.h \
+ ../../PLANTBASE_bsp/MB_UC/include/xspi_l.h \
+ ../../PLANTBASE_bsp/MB_UC/include/sleep.h \
+ ../../PLANTBASE_bsp/MB_UC/include/xil_types.h \
  ../../PLANTBASE_bsp/MB_UC/include/xil_printf.h \
  ../../PLANTBASE_bsp/MB_UC/include/xil_cache.h \
  ../../PLANTBASE_bsp/MB_UC/include/xgpio.h \
@@ -78,6 +83,16 @@ src/PLANTBASE.o src/PLANTBASE.o: ../src/PLANTBASE.c \
 ../../PLANTBASE_bsp/MB_UC/include/xtmrctr.h:
 
 ../../PLANTBASE_bsp/MB_UC/include/xtmrctr_l.h:
+
+../../PLANTBASE_bsp/MB_UC/include/PmodALS.h:
+
+../../PLANTBASE_bsp/MB_UC/include/xspi.h:
+
+../../PLANTBASE_bsp/MB_UC/include/xspi_l.h:
+
+../../PLANTBASE_bsp/MB_UC/include/sleep.h:
+
+../../PLANTBASE_bsp/MB_UC/include/xil_types.h:
 
 ../../PLANTBASE_bsp/MB_UC/include/xil_printf.h:
 

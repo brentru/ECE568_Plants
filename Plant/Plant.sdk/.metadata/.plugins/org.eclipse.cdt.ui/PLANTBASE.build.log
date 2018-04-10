@@ -1,6 +1,32 @@
-00:58:24 **** Incremental Build of configuration Debug for project PLANTBASE ****
+11:03:45 **** Auto Build of configuration Debug for project PLANTBASE ****
 make all 
-make: Nothing to be done for `all'.
+'Building file: ../src/PLANTBASE.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/PLANTBASE.o" -I../../PLANTBASE_bsp/MB_UC/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/PLANTBASE.d" -MT"src/PLANTBASE.o" -o "src/PLANTBASE.o" "../src/PLANTBASE.c"
+../src/PLANTBASE.c: In function 'prvHygroPoll':
+../src/PLANTBASE.c:136:13: warning: variable 'Q2stat' set but not used [-Wunused-but-set-variable]
+  int Q1stat,Q2stat;
+             ^~~~~~
+../src/PLANTBASE.c:136:6: warning: variable 'Q1stat' set but not used [-Wunused-but-set-variable]
+  int Q1stat,Q2stat;
+      ^~~~~~
+At top level:
+../src/PLANTBASE.c:254:13: warning: 'vPrintTaskStatus' defined but not used [-Wunused-function]
+ static void vPrintTaskStatus(TaskStatus_t TS)
+             ^~~~~~~~~~~~~~~~
+'Finished building: ../src/PLANTBASE.c'
+' '
+'Building target: PLANTBASE.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PLANTBASE_bsp/MB_UC/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "PLANTBASE.elf"  ./src/PLANTBASE.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: PLANTBASE.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size PLANTBASE.elf  |tee "PLANTBASE.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79608	   1620	  69836	 151064	  24e18	PLANTBASE.elf
+'Finished building: PLANTBASE.elf.size'
+' '
 
-00:58:24 Build Finished (took 153ms)
+11:03:47 Build Finished (took 1s.733ms)
 
